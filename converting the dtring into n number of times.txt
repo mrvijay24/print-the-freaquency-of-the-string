@@ -1,0 +1,10 @@
+#converting the dtring into n number of times
+s=input()
+n=int(input())
+l=len(s)
+res=''
+for j in range(0,l):
+    for i in range(0,n):
+        res=res+s[j]
+
+print(res)    
